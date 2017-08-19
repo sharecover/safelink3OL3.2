@@ -1,3 +1,5 @@
+<script type='text/javascript'>
+//<![CDATA[
 jQuery(document).ready(function() { 
 
  //Set Default State of each portfolio piece
@@ -41,7 +43,7 @@ jQuery(document).ready(function() {
              $active = $('.paging a:first'); //go back to first
          }
          rotate(); //Trigger the paging and slider function
-     }, 5000); //Timer speed in milliseconds (3 seconds) 
+     }, 10000); //Timer speed in milliseconds (3 seconds) 
  
  };
  
@@ -59,7 +61,10 @@ jQuery(document).ready(function() {
 
 });
 
-
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
 imgr = new Array();
 imgr[0] = "http://2.bp.blogspot.com/-uitX7ROPtTU/Tyv-G4NA_uI/AAAAAAAAFBY/NcWLPVnYEnU/s1600/no+image.jpg";
 showRandomImg = true;
@@ -211,3 +216,5 @@ function showrecentposts2(json) {
  }
  
 }
+ //]]>
+</script>
